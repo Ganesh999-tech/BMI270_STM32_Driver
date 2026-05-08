@@ -9,7 +9,7 @@ The primary goal of this phase is to collect steady-state sensor data across var
 ## 🛠 Hardware Stack
 *   **MCU:** STM32H743ZI (Nucleo-144) @ 480MHz.
 *   **Sensor:** Bosch BMI270 (connected via SPI1).
-*   **Interface:** USART3 @ 115200 Baud for data streaming.
+*   **Interface:** USART3 @ 38400 Baud for data streaming.
 
 ## 📊 Data Stream Format
 The firmware outputs a CSV-compatible string every 20ms (50Hz) for logging via **PuTTY** or real-time visualization:
